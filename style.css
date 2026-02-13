@@ -1,0 +1,99 @@
+/* BASE */
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: #ffffff;
+  color: #111827;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 20px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+.navbar nav a {
+  margin-left: 18px;
+  text-decoration: none;
+  color: #6b7280;
+  font-weight: 500;
+}
+
+.navbar nav a.active {
+  color: #2563eb;
+}
+
+/* HOME */
+.home {
+  display: flex;
+  justify-content: center;
+  padding: 40px 16px;
+}
+
+.card {
+  width: 100%;
+  max-width: 420px;
+  background: #f9fafb;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,0.08);
+}
+
+.tags span {
+  display: inline-block;
+  background: #e5e7eb;
+  padding: 6px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  margin: 6px 6px 0 0;
+}
+
+.link {
+  display: inline-block;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #2563eb;
+  font-weight: 600;
+}
+
+/* BLOG */
+.blog-container {
+  width: 100%;
+  max-width: 760px;
+  margin: 0 auto;
+  padding: 28px 20px 48px;
+}
+
+.breadcrumb {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 14px;
+}
+
+h1 {
+  font-size: 32px;
+  line-height: 1.2;
+  margin-bottom: 16px;
+}
+
+h2 {
+  margin-top: 36px;
+}
+
+h3 {
+  margin-top: 28px;
+}
+
+p {
+  line-height: 1.75;
+  margin: 18px 0;
+}
